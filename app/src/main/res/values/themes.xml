@@ -1,0 +1,11 @@
+<resources>
+    <style name="Theme.MyApplication2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="android:background">@color/backgroundColor</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/gameGrid"
+        android:layout_width="280dp"
+        android:layout_height="320dp"
+        android:layout_margin="16dp"
+        android:columnCount="3"
+        android:rowCount="3"
+        app:layout_constraintBottom_toTopOf="@+id/resetButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        tools:ignore="NotSibling">
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/GameButton"
+            android:contentDescription="Player 1's move"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/GameButton"
+            android:contentDescription="Player 2's move"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/GameButton"
+            android:contentDescription="Player 1's move"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/GameButton"
+            android:contentDescription="Player 2's move"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/GameButton"
+            android:contentDescription="Player 1's move"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/GameButton"
+            android:contentDescription="Player 2's move"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/GameButton"
+            android:contentDescription="Player 1's move"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/GameButton"
+            android:contentDescription="Player 2's move"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/button9"
+            style="@style/GameButton"
+            android:contentDescription="Player 1's move"
+            tools:ignore="HardcodedText" />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        app:layout_constraintBottom_toTopOf="@+id/gameGrid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/statsView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stats"
+        app:layout_constraintBottom_toTopOf="@+id/themeToggleButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameGrid"
+        tools:ignore="HardcodedText,NotSibling" />
+
+
+    <LinearLayout
+        android:id="@+id/buttonPanel"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/botButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bot Mode"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/resetButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset Game"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/themeToggleButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Switch Theme"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

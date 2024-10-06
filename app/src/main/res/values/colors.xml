@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Основные цвета для светлой темы -->
+    <color name="colorPrimary" tools:targetApi="lollipop">#6200EE</color>
+    <color name="colorPrimaryVariant" tools:targetApi="lollipop">#3700B3</color>
+    <color name="colorOnPrimary" tools:targetApi="lollipop">#FFFFFF</color>
+
+    <color name="colorSecondary">#03DAC6</color>
+    <color name="colorSecondaryVariant">#018786</color>
+    <color name="colorOnSecondary">#000000</color>
+
+    <!-- Цвета для темной темы -->
+    <color name="colorPrimaryDark" tools:targetApi="lollipop">#BB86FC</color>
+    <color name="colorPrimaryVariantDark" tools:targetApi="lollipop">#3700B3</color>
+    <color name="colorOnPrimaryDark" tools:targetApi="lollipop">#000000</color>
+
+    <color name="colorSecondaryDark">#03DAC6</color>
+    <color name="colorSecondaryVariantDark">#03DAC6</color>
+    <color name="colorOnSecondaryDark">#000000</color>
+
+    <!-- Фон и текст -->
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="backgroundColorDark">#121212</color>
+
+    <color name="textColor">#000000</color>
+    <color name="textColorDark">#FFFFFF</color>
+</resources>
